@@ -4,24 +4,34 @@ body {
 }
 
 a {
-    color:#4b566a;
     text-decoration: none;
     font-weight: bold;
-    padding: 5px;
+    padding: 0px 30px;
+}
+
+a:link, a:visited {
+    color: #4b566a;
+}
+
+a:hover {
+    color: #e0e0d0;
 }
 
 h2 {
-    color:#4b566a;
+    color: #4b566a;
     font-weight: bold;
 }
+
 #principal {
-    width:  900px;
+    width: 900px;
+    margin: auto;
 }
 
 #menu {
     background: #c5c5b2;
     /* Padding aplica um espaçamento interno */
     padding: 18px;
+    text-align: center;
 }
 
 #conteudo {
